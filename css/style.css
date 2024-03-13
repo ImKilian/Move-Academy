@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    color: #363636;
+    font-family: "Open Sans", sans-serif;
+}
+
+main a {
+    font-size: 20px;
+}
+
+h1, h2, h3, nav, a, button{
+    font-family: 'Economica';
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #7e4a7c;
+}
+
+h2 {
+    font-size: 40px;
+    color: #b878b5;
+}
+
+h3 {
+    font-size: 30px;
+    color: #7e4a7c;
+}
+
+em {
+    color: #7e4a7c;
+}
+
+.license {
+    font-size: 14px;
+}
+
+.toolbar button {
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header nav ul li a {
+    padding: 5px 10px;
+}
+
+header nav ul {
+    background-color: #7e4a7c;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px;
+}
+
+header nav ul li {
+    width: 20%;
+}
+
+header nav a:hover {
+    background-color: #fff;
+    color: #7e4a7c;
+    padding: 5px 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction : row;
+}
+
+article {
+    justify-content : flex-start;
+    width: 70%;
+    padding-right: 2em;
+}
+
+article img {
+    float: left;
+    margin-right: 2em;
+    border-radius: 10px;
+}
+
+.more {
+    color: #fff;
+    background-color: #7e4a7c;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Economica", sans-serif;
+    text-decoration: none;
+    border: 2px solid #7e4a7c;
+}
+
+.more:hover {
+    background-color: #FFF;
+    color: #7e4a7c;
+    transition: .2s;
+}
+
+aside {
+    justify-content : flex-start;
+    margin-top: 5em;
+    width: 30%;
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+aside img {
+    padding-right: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 50%;
+    margin: 0 0 2em 0;
+}
+
+figure img {
+    float: left;
+    margin-right: 2em;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+th,
+td {
+    border: 1px solid #b878b5;
+    padding: 1rem 2rem;
+}
+
+th {
+    background-color: #7e4a7c;
+    color: #fff;
+}
+
+.vide {
+    background-color: #ffeefe;
+}
+
+tr td:first-child {
+    font-weight: bold;
+}
+
+form {
+    border: 1px solid #b878b5;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    width: calc(100% -2rem);
+    display: flex;
+    flex-direction: column;
+    color: #7e4a7c;
+}
+
+fieldset {
+    background-color: #ffeefe;
+    padding: 1rem ;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+
+label {
+    font-weight: bold;
+    padding-right: 0.6em;
+}
+
+input, select {
+    border: 1px solid #b878b5;
+    padding: 3px;
+}
+
+input {
+    width: 17rem;
+}
+
+select {
+    width: 11rem;
+}
+
+.toolbar {
+    text-align: center;
+}
+
+.toolbar button {
+    font-size: 25px;
+    background-color: #7e4a7c;
+    padding: 10px;
+    border: 2px solid #7e4a7c;
+    color: #fff;
+}
+
+.toolbar button:hover {
+    background-color: #FFF;
+    color: #7e4a7c;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.reseaux {
+    background-color: #7e4a7c;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.reseaux .fa-brands {
+    padding: 2rem;
+}
+
+.license {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+}
+
+.license img {
+    width: 50px;
+}
+
+.license a {
+    color: #fff;
+    font-family: none;
+}
+
+/*****************************************************************ANIMATIONS**************************************************************************************************/
+
+figure {
+    transition: .2s;
+}
+
+figure:hover {
+    transform: scale(1.2);
+    transform: skewX(5deg) rotateX(10deg);
+    box-shadow: #363636 0 1px 2px ;
+}
+
+td:hover {
+    background-color: #01D758;
+    box-shadow: 0 1px 2px;
+    transition: .2s;
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.vide:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
